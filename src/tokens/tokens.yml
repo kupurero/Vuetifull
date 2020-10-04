@@ -1,0 +1,11 @@
+#
+# GLOBAL: DESIGN TOKENS
+#
+
+imports:
+  - ./color.yml
+  - ./font.yml
+
+global:
+  type: global
+  category: all

@@ -1,0 +1,105 @@
+#
+# COLOR TOKENS
+# Use these tokens to set a color.
+# For reference, see http://hslpicker.com/
+#
+# To make things a little simpler for your team,
+# utilize both global & local tokens for colors.
+#
+
+aliases:
+  primary:
+    value: "233, 100%"
+  danger:
+    value: "0, 100%"
+  success:
+    value: "88, 50%"
+  warning:
+    value: "45, 94%"
+  ink:
+    value: "345, 6%"
+  silver:
+    value: "204, 20%"
+  white:
+    value: "#fff"
+props:
+  color_primary_darker:
+    value: "hsla({!primary}, 12%, 1)"
+    category: color_group_1
+  color_primary_dark:
+    value: "hsla({!primary}, 33%, 1)"
+    category: color_group_1
+  color_primary:
+    value: "hsla({!primary}, 51%, 1)"
+    category: color_group_1
+  color_primary_light:
+    value: "hsla({!primary}, 73%, 1)"
+    category: color_group_1
+  color_primary_lighter:
+    value: "hsla({!primary}, 98%, 1)"
+    category: color_group_1
+
+  color_danger_darker:
+    value: "hsla({!danger}, 20%, 1)"
+    category: color_group_2
+  color_danger_dark:
+    value: "hsla({!danger}, 33%, 1)"
+    category: color_group_2
+  color_danger:
+    value: "hsla({!danger}, 51%, 1)"
+    category: color_group_2
+  color_danger_light:
+    value: "hsla({!danger}, 63%, 1)"
+    category: color_group_2
+  color_danger_lighter:
+    value: "hsla({!danger}, 80%, 1)"
+    category: color_group_2
+
+  color_success_darker:
+    value: "hsla({!success}, 20%, 1)"
+    category: color_group_3
+  color_success_dark:
+    value: "hsla({!success}, 33%, 1)"
+    category: color_group_3
+  color_success:
+    value: "hsla({!success}, 51%, 1)"
+    category: color_group_3
+  color_success_light:
+    value: "hsla({!success}, 63%, 1)"
+    category: color_group_3
+  color_success_lighter:
+    value: "hsla({!success}, 80%, 1)"
+    category: color_group_3
+
+  color_warning_darker:
+    value: "hsla({!warning}, 20%, 1)"
+    category: color_group_4
+  color_warning_dark:
+    value: "hsla({!warning}, 27%, 1)"
+    category: color_group_4
+  color_warning:
+    value: "hsla({!warning}, 63%, 1)"
+    category: color_group_4
+  color_warning_light:
+    value: "hsla({!warning}, 75%, 1)"
+    category: color_group_4
+  color_warning_lighter:
+    value: "hsla({!warning}, 80%, 1)"
+    category: color_group_4
+
+  color_ink:
+    value: "hsla({!ink}, 13%, 1)"
+    category: color_group_5
+  color_ink_light:
+    value: "hsla({!silver}, 76%, 1)"
+    category: color_group_5
+  color_ink_lighter:
+    value: "hsla({!silver}, 95%, 1)"
+    category: color_group_5
+  color_white:
+    value: "{!white}"
+    category: color_group_5
+
+global:
+  type: color
+  category: color

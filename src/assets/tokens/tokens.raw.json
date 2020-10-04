@@ -1,0 +1,237 @@
+{
+  "aliases": {
+    "primary": {
+      "value": "233, 100%"
+    },
+    "danger": {
+      "value": "0, 100%"
+    },
+    "success": {
+      "value": "88, 50%"
+    },
+    "warning": {
+      "value": "45, 94%"
+    },
+    "ink": {
+      "value": "345, 6%"
+    },
+    "silver": {
+      "value": "204, 20%"
+    },
+    "white": {
+      "value": "#fff"
+    }
+  },
+  "props": {
+    "color_warning": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(249, 205, 72)",
+      "originalValue": "hsla({!warning}, 63%, 1)",
+      "name": "color_warning"
+    },
+    "color_ink_light": {
+      "type": "color",
+      "category": "color_group_5",
+      "value": "rgb(182, 196, 206)",
+      "originalValue": "hsla({!silver}, 76%, 1)",
+      "name": "color_ink_light"
+    },
+    "color_warning_darker": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(99, 75, 3)",
+      "originalValue": "hsla({!warning}, 20%, 1)",
+      "name": "color_warning_darker"
+    },
+    "color_danger_darker": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(102, 0, 0)",
+      "originalValue": "hsla({!danger}, 20%, 1)",
+      "name": "color_danger_darker"
+    },
+    "color_danger_lighter": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(255, 153, 153)",
+      "originalValue": "hsla({!danger}, 80%, 1)",
+      "name": "color_danger_lighter"
+    },
+    "color_warning_lighter": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(252, 228, 156)",
+      "originalValue": "hsla({!warning}, 80%, 1)",
+      "name": "color_warning_lighter"
+    },
+    "color_primary": {
+      "type": "color",
+      "category": "color_group_1",
+      "value": "rgb(5, 34, 255)",
+      "originalValue": "hsla({!primary}, 51%, 1)",
+      "name": "color_primary"
+    },
+    "color_success": {
+      "type": "color",
+      "category": "color_group_3",
+      "value": "rgb(134, 193, 68)",
+      "originalValue": "hsla({!success}, 51%, 1)",
+      "name": "color_success"
+    },
+    "color_ink": {
+      "type": "color",
+      "category": "color_group_5",
+      "value": "rgb(35, 31, 32)",
+      "originalValue": "hsla({!ink}, 13%, 1)",
+      "name": "color_ink"
+    },
+    "color_primary_lighter": {
+      "type": "color",
+      "category": "color_group_1",
+      "value": "rgb(245, 246, 255)",
+      "originalValue": "hsla({!primary}, 98%, 1)",
+      "name": "color_primary_lighter"
+    },
+    "color_success_lighter": {
+      "type": "color",
+      "category": "color_group_3",
+      "value": "rgb(206, 230, 179)",
+      "originalValue": "hsla({!success}, 80%, 1)",
+      "name": "color_success_lighter"
+    },
+    "color_white": {
+      "type": "color",
+      "category": "color_group_5",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!white}",
+      "name": "color_white"
+    },
+    "color_success_dark": {
+      "type": "color",
+      "category": "color_group_3",
+      "value": "rgb(87, 126, 42)",
+      "originalValue": "hsla({!success}, 33%, 1)",
+      "name": "color_success_dark"
+    },
+    "color_ink_lighter": {
+      "type": "color",
+      "category": "color_group_5",
+      "value": "rgb(240, 243, 245)",
+      "originalValue": "hsla({!silver}, 95%, 1)",
+      "name": "color_ink_lighter"
+    },
+    "color_primary_dark": {
+      "type": "color",
+      "category": "color_group_1",
+      "value": "rgb(0, 20, 168)",
+      "originalValue": "hsla({!primary}, 33%, 1)",
+      "name": "color_primary_dark"
+    },
+    "color_warning_dark": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(134, 101, 4)",
+      "originalValue": "hsla({!warning}, 27%, 1)",
+      "name": "color_warning_dark"
+    },
+    "color_danger_dark": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(168, 0, 0)",
+      "originalValue": "hsla({!danger}, 33%, 1)",
+      "name": "color_danger_dark"
+    },
+    "color_danger_light": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(255, 66, 66)",
+      "originalValue": "hsla({!danger}, 63%, 1)",
+      "name": "color_danger_light"
+    },
+    "color_warning_light": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(251, 221, 131)",
+      "originalValue": "hsla({!warning}, 75%, 1)",
+      "name": "color_warning_light"
+    },
+    "color_success_darker": {
+      "type": "color",
+      "category": "color_group_3",
+      "value": "rgb(53, 77, 25)",
+      "originalValue": "hsla({!success}, 20%, 1)",
+      "name": "color_success_darker"
+    },
+    "color_primary_darker": {
+      "type": "color",
+      "category": "color_group_1",
+      "value": "rgb(0, 7, 61)",
+      "originalValue": "hsla({!primary}, 12%, 1)",
+      "name": "color_primary_darker"
+    },
+    "color_primary_light": {
+      "type": "color",
+      "category": "color_group_1",
+      "value": "rgb(117, 133, 255)",
+      "originalValue": "hsla({!primary}, 73%, 1)",
+      "name": "color_primary_light"
+    },
+    "color_success_light": {
+      "type": "color",
+      "category": "color_group_3",
+      "value": "rgb(164, 208, 113)",
+      "originalValue": "hsla({!success}, 63%, 1)",
+      "name": "color_success_light"
+    },
+    "color_danger": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(255, 5, 5)",
+      "originalValue": "hsla({!danger}, 51%, 1)",
+      "name": "color_danger"
+    },
+    "font_heading": {
+      "type": "...",
+      "category": "font",
+      "value": "Mulish, Helvetica, Arial, sans-serif",
+      "originalValue": "Mulish, Helvetica, Arial, sans-serif",
+      "name": "font_heading"
+    },
+    "font_text": {
+      "type": "...",
+      "category": "font",
+      "value": "Mulish, Helvetica, Arial, sans-serif",
+      "originalValue": "Mulish, Helvetica, Arial, sans-serif",
+      "name": "font_text"
+    },
+    "weight_bold": {
+      "type": "...",
+      "category": "font",
+      "value": "900",
+      "originalValue": "900",
+      "name": "weight_bold"
+    },
+    "weight_semi_bold": {
+      "type": "...",
+      "category": "font",
+      "value": "700",
+      "originalValue": "700",
+      "name": "weight_semi_bold"
+    },
+    "weight_normal": {
+      "type": "...",
+      "category": "font",
+      "value": "400",
+      "originalValue": "400",
+      "name": "weight_normal"
+    },
+    "weight_light": {
+      "type": "...",
+      "category": "font",
+      "value": "300",
+      "originalValue": "300",
+      "name": "weight_light"
+    }
+  }
+}

@@ -1,24 +1,76 @@
 {
   "name": "vuetifull",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "files": [
+    "dist/system"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "start": "npm-run-all --parallel styleguide theo:onchange theo",
+    "build:system": "npm-run-all theo node:build:system",
+    "build:docs": "npm-run-all theo styleguide:build",
+    "node:build:system": "node ./build/build-system.js",
+    "styleguide": "vue-styleguidist server --open --config ./config/docs.config.js",
+    "styleguide:build": "vue-styleguidist build --config ./config/docs.config.js",
+    "theo": "theo ./src/tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/tokens",
+    "theo:onchange": "onchange \"./src/tokens/*.yml\" -- npm run theo"
   },
   "dependencies": {
+    "@drewbot/sass-flexbox-grid": "^2.0.7",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "lodash": "^4.17.20",
+    "mini-css-extract-plugin": "^0.11.2",
+    "postcss-import": "^12.0.1",
+    "postcss-safe-parser": "^5.0.1",
+    "postcss-url": "^8.0.0",
+    "vue": "^2.6.11",
+    "vue-click-outside": "^1.1.0",
+    "vue-good-table": "^2.21.0",
+    "vue-lodash": "^2.1.2",
+    "vue-multiselect": "^2.1.6",
+    "vuelidate": "^0.7.5",
+    "vuelidate-error-extractor": "^2.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "chalk": "^4.1.0",
+    "compression-webpack-plugin": "^6.0.2",
+    "copy-webpack-plugin": "^6.1.1",
+    "css-loader": "^4.3.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "html-loader": "^1.3.0",
+    "node-notifier": "^8.0.0",
+    "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.0.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "ora": "^5.1.0",
+    "postcss": "^8.0.5",
+    "postcss-loader": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.11",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.1.0",
+    "semver": "^7.3.2",
+    "shelljs": "^0.8.4",
+    "theo": "^8.0.1",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-styleguidist": "^4.32.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-merge": "^4.1.4",
+    "webpack-merge-and-include-globally": "^2.1.25"
+  },
+  "engines": {
+    "node": ">= 8.6.0",
+    "npm": ">= 3.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -38,5 +90,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "author": "",
+  "license": "ISC"
 }
